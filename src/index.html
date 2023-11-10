@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CRAVY</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Cravy</div>
+            <div class="menu-icon" id="menu-icon" onclick="toggleNav()">&#9776;</div>
+        </nav>
+    </header>
+
+    <div class="sidenav" id="sidenav">
+        <ul>
+            <li><a href="displayFood.html">FOTD</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <div class="gif-container">
+            <img src="tacos.gif" alt="Your GIF">
+        </div>
+            <div class="search-container">
+                <p>What do you want to eat for today?</p>
+                <input type="text" class="search-box" id="food_input" name="food_input" placeholder="Enter your food preference today">
+                <div class="button-container">
+                    <button id="submit-button" onclick="buttonOnclicked()">SEARCH</button>
+                </div>
+            </div>
+    </main>
+
+    <main class="main1">
+        <div class="container">
+            <p class="p1" id="foodName"></p>
+            <hr class="h1">
+            <ol id="foodRecipe"></ol>
+            <hr class="h1">
+            <p class="p1" id="foodIngredients"></p>
+            <hr class="h1">
+            <p class="p1" id="foodURL"></p>
+        </div>
+    </main>
+
+    <hr> 
+    <main>
+        <p>FOOD RECOMMENDATION</p><br>
+        <div class="product">
+            <p class="p1" id="displayName1">
+            <hr class="h1">
+            <p class="p1" id="displayCategory1"></p>
+            <p class="p1" id="displayArea1"></p> 
+            <button onclick="displayfood()">Get Food Recommendation</button>
+        </div>
+        <div class="product">
+            <p class="p1" id="displayName2">
+            <hr class="h1">
+            <p class="p1" id="displayCategory2"></p>
+            <p class="p1" id="displayArea2"></p> 
+            <button onclick="displayfood2()">Get Food Recommendation</button>
+        </div>
+        <div class="product">
+            <p class="p1" id="displayName3">
+            <hr class="h1">
+            <p class="p1" id="displayCategory3"></p>
+            <p class="p1" id="displayArea3"></p>
+            <button onclick="displayfood3()">Get Food Recommendation</button>
+        </div>
+    </main>
+    
+    <footer>
+        <p class="p2">&copy; 2023 Cravy Meal Planner</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

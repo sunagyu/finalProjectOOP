@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recipe Planner</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Cravy</div>
+            <div class="menu-icon" id="menu-icon" onclick="toggleNav()">&#9776;</div>
+        </nav>
+    </header>
+
+    <div class="sidenav" id="sidenav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="CRUD.html">notes for FOTD</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <div class="gif-container">
+            <img src="hotpot.gif" alt="Your GIF">
+        </div>
+        <div class="search-container">
+            <p>What else you crave for today?</p>
+            <input type="text" class="search-box" id="food_input" name="food_input" placeholder="Enter a food item">
+            <div class="button-container">
+                <button id="submit-button" onclick="buttonOnclicked()">SEARCH</button>
+            </div>
+        </div>
+    </main>
+
+    <main class="main1">
+        <div class="container">
+            <p class="p1" id="foodName"></p>
+            <hr class="h1">
+            <ol id="foodRecipe"></ol>
+            <hr class="h1">
+            <p class="p1" id="foodIngredients"></p>
+            <hr class="h1">
+            <p class="p1" id="foodURL"></p>
+        </div>
+    </main>
+
+    <footer>
+        <p class="p2">&copy; 2023 Cravy Meal Planner</p>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="main2.js"></script>
+</body>
+</html>

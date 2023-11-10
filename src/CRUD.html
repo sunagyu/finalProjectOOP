@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="photon.min.css" />
+</head>
+<body>
+  <header>
+    <nav>
+        <div class="logo">Cravy</div>
+        <div class="menu-icon" id="menu-icon" onclick="toggleNav()">&#9776;</div>
+    </nav>
+  </header>
+
+  <div class="sidenav" id="sidenav">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+    </ul>
+  </div>
+
+    <div class="mainWrapper">
+        <form>
+          <div class="form-group">
+            <label>What food did you search for today?</label>
+            <input id="fileName" type="text" class="form-control">
+          </div>
+  
+          <div class="form-group">
+            <label>Does the recommendation helpful?</label>
+            <textarea id="fileContents" class="form-control" rows="5"></textarea>
+          </div>
+        </form>
+  
+        <button id="btnCreate" class="pastel-green-button">Create</button>
+        <button id="btnRead" class="pastel-green-button">Read</button>
+        <button id="btnDelete" class="pastel-green-button">Delete</button>
+        <button id="btnUpdate" class="pastel-green-button">Update</button>
+
+        <main class="main1">
+          <div class="container2">
+            <p class="p1">Food of the Day!</p>
+            <ul id="list"></ul>
+          </div>
+        </main>
+      </div>
+      <footer>
+        <p class="p2">&copy; 2023 Cravy Meal Planner</p>
+      </footer>
+    <script src="main2.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

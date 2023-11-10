@@ -1,0 +1,285 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: aliceblue;
+}
+
+header {
+  background-color: #93cc93;
+  color: #fff;
+  padding: 1rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .logo {
+  font-size: 24px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: inline;
+}
+
+nav .nav-links li {
+  display: inline;
+  margin-right: 20px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search-container {
+  text-align: center;
+}
+  
+.search-box {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #93cc93;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: auto;
+}
+
+.button-container {
+  text-align: center;
+}
+
+  #submit-button {
+  width: 30%;
+  color: #3ca33c;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
+  padding: 14px 13px 12px 13px;
+  border: 0;
+  outline: 1px solid #3ca33c;
+  border-radius: 8px;
+  line-height: 1;
+  cursor: pointer;
+  transition: all ease-in-out .3s;
+  margin-top: 20px;
+  }
+  
+  #submit-button:hover {
+  transition: all ease-in-out .3s;
+  background-color: #3ca33c;
+  color: #fff;
+  cursor: pointer;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ .a1{
+    color: black;
+    text-decoration: none;
+ }
+
+p {
+    color: gray;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.p1{
+    color: black;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.p2 {
+    color: #fff;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.left-aligned {
+    text-align: left;
+}
+
+ol {
+    color: black;
+    font-family: 'Aclonica', sans-serif;
+    font-size: 16px;
+}
+
+hr {
+  height: 5px;
+  border: none;
+  background: linear-gradient(to right, #93cc93, #3ca33c, #93cc93);
+  margin: 10px 0;
+}
+
+.hr1{
+  height: 5px;
+  width: 30%;
+  border: none;
+  background: linear-gradient(to right, #93cc93, #3ca33c, #93cc93);
+  margin: 10px 0;
+}
+
+footer {
+    background-color: #93cc93;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Main content styles */
+.product {
+  border: 1px solid #ddd;
+  padding: 55px;
+  margin: 40px;
+  text-align: center;
+  display: inline-block;
+  width: 200px;
+}
+
+.product img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: fit-content;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.container2 {
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.main1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+img {
+  height: 200px;
+  width: 300px;
+  align-items: center;
+}
+
+.mainWrapper{
+  margin: 25px;
+}
+
+/* Position the logo and menu to the left and right within the nav */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .logo {
+  font-size: 24px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: inline;
+}
+
+nav .menu-icon {
+  cursor: pointer;
+  font-size: 24px;
+  color: #fff;
+  z-index: 2;
+}
+
+/* Style the sidenav to appear from the right */
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0; /* Adjust right to control the position */
+  background-color: #93cc93;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 60px;
+}
+
+.sidenav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidenav ul li {
+  padding: 10px;
+  text-align: center;
+}
+
+.sidenav ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav ul li a:hover {
+  background-color: #3ca33c;
+}
+
+/* Add this class to control the side navigation width when opened */
+.sidenav-open {
+  width: 250px;
+}
+
+/* styles.css */
+.gif-container {
+    text-align: center;
+}
+
+.gif-container img {
+    max-width: 100%; /* Adjust the maximum width */
+    border-radius: 10px; /* Rounded corners */
+}
+
+script {
+  color: black;
+}
+
+.pastel-green-button {
+  background-color: #9EDBD1; /* Pastel Green Color */
+  color: #fff; /* Text Color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.pastel-green-button:hover {
+  background-color: #76C6B4; 
+}
+
+.delete-button {
+  display: none; /* Initially hidden */
+  /* Add additional styling as needed */
+}
